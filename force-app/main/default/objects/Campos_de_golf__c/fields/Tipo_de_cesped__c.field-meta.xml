@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_cesped__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de cesped</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agrostis</fullName>
+                <default>false</default>
+                <label>Agrostis</label>
+            </value>
+            <value>
+                <fullName>Pasto Bermuda</fullName>
+                <default>false</default>
+                <label>Pasto Bermuda</label>
+            </value>
+            <value>
+                <fullName>El Lolium perenne</fullName>
+                <default>false</default>
+                <label>El Lolium perenne</label>
+            </value>
+            <value>
+                <fullName>Zoysia</fullName>
+                <default>false</default>
+                <label>Zoysia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
